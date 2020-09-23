@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Vika Druzhkova](https://up.htmlacademy.ru/javascript/21/user/1516395).
-* Наставник: `Неизвестно`.
+* Наставник: `Мурат Баркинхоев`.
 
 ---
 
