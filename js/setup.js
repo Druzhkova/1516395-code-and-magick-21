@@ -52,9 +52,10 @@ const blockSetUp = document.querySelector('.setup');
 const setUpOpen = document.querySelector('.setup-open');
 const setupOpenIcon = document.querySelector('.setup-open-icon');
 const setUpClose = document.querySelector('.setup-close');
+const setupUserName = document.querySelector('.setup-user-name');
 
 const onPopupEscPress = function (evt) {
-  if (evt.key === 'Escape') {
+  if (evt.key === 'Escape' && evt.target !== setupUserName) {
     evt.preventDefault();
     closePopup();
   }
